@@ -1,0 +1,43 @@
+html {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Verdana", "Arial", sans-serif;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 1em;
+}
+header, main {
+    max-width: 34em;
+    margin: 0 auto;
+}
+#timer, #pastTimes {
+    min-height: 2em;
+    padding: 1em 0;
+}
+/* buttons */
+.btn-group button {
+    background-color: #1C6DBB;
+    border: 1px solid #185B9A;
+    color: #fff;
+    padding: .8em 1em;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #4CA8FE;
+    color: #000;
+}
